@@ -2,7 +2,7 @@
 *.swp
 
 # file hosting
-build/
+builds/
 
 # dynamic section
 wolf/
