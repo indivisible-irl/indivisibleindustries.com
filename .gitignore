@@ -1,3 +1,8 @@
-# ignore some root folders
+# temp files
+*.swp
+
+# file hosting
 build/
+
+# dynamic section
 wolf/
