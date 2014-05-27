@@ -1,5 +1,6 @@
 # temp files
 *.swp
+*.swo
 
 # file hosting
 builds/
