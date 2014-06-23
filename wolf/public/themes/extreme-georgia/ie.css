@@ -1,0 +1,9 @@
+/* 
+Extreme Georgia for Wolf CMS:
+Simple fix for spacing problem in header in IE browsers 
+*/
+
+p.ie
+{
+	padding-top:18px;
+}
