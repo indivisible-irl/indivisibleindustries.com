@@ -26,7 +26,7 @@
 
     body {
         background-color: black;
-        background-image: url('/img/bgrnd/dark-static.gif');
+        background-image: url('/static/img/bgrnd/dark-static.gif');
         /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
         font-family: 'Roboto Condensed', sans-serif;
         color: #999;
