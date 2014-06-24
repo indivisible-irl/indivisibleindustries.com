@@ -1,11 +1,19 @@
 /* 
  * made by indivisible for
  * indivisibleindustries.com
+ * 
+ * Yes, I'm aware I could minify this whole file and save myself (and you)
+ *   a few bytes and a couple of nanoseconds per request but as this is a protfolio
+ *   site I think that leaving all the code intact is of more value to us both.
+ *
+ * If you have any issues, inquiries or would just like to say "Hi!":
+ *      admin@indivisibleindustries.com
+ *      webmaster@indivisibleindustries.com
  */
 
 /***** Fonts *****/
 /* Apparently not easily supported and buggy.
-   Let's leave Google to deal with it
+   Let's leave Google to deal with it instead
     @font-face {
         font-family: "Roboto Condensed", sans-serif;
         font-weight: bold;
@@ -150,8 +158,14 @@
         font-size: 1.2em;
     }
     li::before {
-          content: "\203a";
-          padding-right: 0.3em;
+        content: "\203a";
+        padding-right: 0.3em;
+        position: absolute;
+        text-align: right;
+        left: 0.5em;
+    }
+    li:hover::before {
+        content: "\203a\203a\203a";
     }
 
 
@@ -241,7 +255,6 @@
             -ms-transform: translateX(1.2em);
                 transform: translateX(1.2em);
     }
-    
 
 
 /*
